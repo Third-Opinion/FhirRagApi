@@ -8,6 +8,13 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.3" />
+    <PackageReference Include="FhirRag.Core" Version="1.0.0-*" />
+    <PackageReference Include="FhirRag.Core.Abstractions" Version="1.0.0-*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../FhirRag.Api.Services/FhirRag.Api.Services.csproj" />
+    <ProjectReference Include="../FhirRag.Api.Models/FhirRag.Api.Models.csproj" />
   </ItemGroup>
 
 </Project>
